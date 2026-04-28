@@ -17,4 +17,8 @@ public class App1Application {
     public String hello() {
         return "Hello World";
     }
+
+    public int add(int a, int b) {
+        return a * b;
+    }
 }
